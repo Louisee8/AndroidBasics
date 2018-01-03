@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#54a4fa</color>
+    <color name="primary_dark_color">#0d09f3</color>
+    <color name="tan_background">#57dccf</color>
+    <color name="category_musea">#ced4d4</color>
+    <color name="category_sights">#ce99fd</color>
+    <color name="category_restaurants">#f99ab8</color>
+    <color name="category_party">#fdf092</color>
+</resources>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Guinea Pig Quiz</string>
+
+    <string name="question1">Question 1</string>
+    <string name="q1">What do guinea pigs eat?</string>
+    <string name="answer1a">Carrots</string>
+    <string name="answer1b">Fish</string>
+    <string name="answer1c">Eggs</string>
+    <string name="answer1d">Chicken</string>
+
+    <string name="question2">Question 2</string>
+    <string name="q2">Where does the guinea pig originate from?</string>
+    <string name="answer2a">The Netherlands</string>
+    <string name="answer2b">Peru</string>
+    <string name="answer2c">Germany</string>
+    <string name="answer2d">Belgium</string>
+
+    <string name="question3">Question 3</string>
+    <string name="q3">What sounds do guinea pigs make?</string>
+    <string name="answer3">Guinea pigs ...</string>
+
+    <string name="question4">Question 4</string>
+    <string name="q4">What hair colors can guinea pigs get?</string>
+    <string name="answer4a">Brown</string>
+    <string name="answer4b">White</string>
+    <string name="answer4c">Black</string>
+    <string name="answer4d">Orange</string>
+
+    <string name="question5">Question 5</string>
+    <string name="q5">What kind of music do guinea pigs like?</string>
+    <string name="answer5a">Rock</string>
+    <string name="answer5b">Classical</string>
+    <string name="answer5c">Reggae</string>
+    <string name="answer5d">Gangster Rap</string>
+
+    <string name="question6">Question 6</string>
+    <string name="q6">How many toes do guinea pigs have in total?</string>
+    <string name="answer6a">11</string>
+    <string name="answer6b">14</string>
+    <string name="answer6c">16</string>
+    <string name="answer6d">12</string>
+
+    <string name="question7">Question 7</string>
+    <string name="q7">What is a good name for a guinea pig?</string>
+    <string name="answer7a">Hugo</string>
+    <string name="answer7b">Hector</string>
+    <string name="answer7c">Hagrid</string>
+    <string name="answer7d">All answers are correct!</string>
+
+    <string name="question8">Question 8</string>
+    <string name="q8">Do guinea pigs have feelings?</string>
+    <string name="answer8a">No, they have no soul.</string>
+    <string name="answer8b">I do not know.</string>
+    <string name="answer8c">I do not care.</string>
+    <string name="answer8d">Definitely!</string>
+
+    <string name="question9">Question 9</string>
+    <string name="q9">How do you greet a guinea pig?</string>
+    <string name="answer9a">You do not.</string>
+    <string name="answer9b">Say hi.</string>
+    <string name="answer9c">Walk away.</string>
+    <string name="answer9d">Give them a burger.</string>
+
+    <string name="question10">Question 10</string>
+    <string name="q10">Would you like to be a guinea pig?</string>
+    <string name="answer10">Yes or No</string>
+
+    <string name="submit">submit</string>
+
+    <string name="score_is">Your score is</string>
+    <string name="from_10">from 10</string>
+</resources>

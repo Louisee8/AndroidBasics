@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">News Application</string>
+    <string name="no_news">No news found</string>
+    <string name="no_internet">No internet connection found</string>
+    <string name="date_na">Date N/A</string>
+    <string name="type_na">Type N/A</string>
+    <string name="section_na">Section N/A</string>
+    <string name="settings_title_actionbar">Settings</string>
+    <string name="search_title_actionbar">Search</string>
+    <string name="settings_title">Settings</string>
+    <string name="search_title">Search</string>
+    <string name="date_format">rrrr-mm-dd</string>
+    <string name="type_news_preference">Type : </string>
+    <string name="type_news_preference_key">Type key</string>
+    <string name="search_content">Search content</string>
+    <string name="search_content_key" translatable="false">Search content</string>
+    <string name="search_section">Search section</string>
+    <string name="search_section_key" translatable="false">Search section</string>
+    <string name="search_tag">Search #TAG</string>
+    <string name="search_tag_key" translatable="false">Search #TAG</string>
+    <string name="start_date">From date </string>
+    <string name="start_date_key" translatable="false">From date </string>
+    <string name="end_date">To date</string>
+    <string name="end_date_key" translatable="false">To date</string>
+    <string name="wrong_data_format">Wrong data format</string>
+    <string name="night_version">Night version</string>
+    <string name="night_version_key">Night version</string>
+</resources>

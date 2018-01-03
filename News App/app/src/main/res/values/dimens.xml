@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">18sp</dimen>
+    <dimen name="dateTextSize">14sp</dimen>
+    <dimen name="sectionTextSize">13sp</dimen>
+    <dimen name="typeTextSize">10sp</dimen>
+    <dimen name="titleTextPadding">15dp</dimen>
+    <dimen name="TextPadding">5dp</dimen>
+    <dimen name="space_between_items">5dp</dimen>
+</resources>

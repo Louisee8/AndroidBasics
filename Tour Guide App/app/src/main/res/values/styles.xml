@@ -1,0 +1,69 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="actionBarStyle">@style/AppTheme</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="AppBarTheme" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="elevation">0dp</item>
+    </style>
+    <style name="TabTheme" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#ffffff</item>
+        <item name="tabSelectedTextColor">#ffffff</item>
+        <item name="android:background">#00AA8d</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="tabTextAppearance">@style/TabTheme</item>
+    </style>
+    <style name="TabTextTheme" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="LinearLayoutTheme" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginTop">@dimen/LinearLayout_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/LinearLayout_margin</item>
+        <item name="android:layout_marginTop">@dimen/LinearLayout_margin</item>
+    </style>
+    <style name="TextTitleTheme" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextDescriptionTheme" parent="TextAppearance.AppCompat">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+    </style>
+    <style name="TextPriceTheme" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/priceMain_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextPriceAmountTheme" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/distance_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

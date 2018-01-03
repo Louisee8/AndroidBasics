@@ -1,0 +1,68 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDay</item>
+        <item name="colorAccent">@color/colorAccentDay</item>
+    </style>
+
+    <style name="titleTVStyleDay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textColor">@color/colorTitleTextDay</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/titleTextPadding</item>
+        <item name="android:paddingTop">@dimen/titleTextPadding</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:paddingEnd">@dimen/TextPadding</item>
+    </style>
+
+    <style name="dateTVStyleDay">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dateTextSize</item>
+        <item name="android:textColor">@color/colorTextDay</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingTop">@dimen/TextPadding</item>
+        <item name="android:paddingStart">@dimen/TextPadding</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="typeTVStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textColor">@color/colorTextDay</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingTop">@dimen/TextPadding</item>
+        <item name="android:paddingStart">@dimen/TextPadding</item>
+        <item name="android:paddingEnd">@dimen/TextPadding</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="sectionTVStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sectionTextSize</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_below">@+id/titleTV</item>
+        <item name="android:textColor">@color/colorTextDay</item>
+        <item name="android:padding">@dimen/TextPadding</item>
+    </style>
+
+    <style name="backgroudDay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="spaceBarDay">
+        <item name="android:background">@color/colorSpaceBarDay</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/space_between_items</item>
+    </style>
+</resources>

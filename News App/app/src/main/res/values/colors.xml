@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDay">#86c5ff</color>
+    <color name="colorPrimaryDarkDay">#2c3afd</color>
+    <color name="colorAccentDay">#4184e9</color>
+    <color name="colorTitleTextDay">#ffffff</color>
+    <color name="colorTextDay">#aadce6</color>
+    <color name="colorSpaceBarDay">#ffc5c5</color>
+    <color name="colorBackground">#b3e3ff</color>
+    <color name="color1">#dc8bff</color>
+    <color name="color2">#a94af1</color>
+    <color name="color3">#7a00f5</color>
+</resources>

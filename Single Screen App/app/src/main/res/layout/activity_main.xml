@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/glitter">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Guinea Pig Inc"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_purple"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@android:color/holo_purple"
+        android:text="High-class guinea pig accessoires!"
+        android:textStyle="italic"
+        android:layout_margin="18dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/guineapig"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_purple"
+        android:text="Guinea Pig Inc"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_purple"
+        android:text="Guinea Pig Street 13"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_purple"
+        android:text="131313 Guinea Pig Land"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_purple"
+        android:text="Mon-Sat: 9:00-18:30"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_purple"
+        android:text="www.GuineaPigInc.xox"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>

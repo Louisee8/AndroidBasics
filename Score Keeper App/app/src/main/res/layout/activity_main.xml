@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/glitter">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Hugo"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_purple"/>
+
+            <ImageView
+                android:id="@+id/hugo_image"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:gravity="center"
+                android:src="@drawable/hugo" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="winHugo"
+                android:text="win"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="cheatHugo"
+                android:text="cheat"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/hugo_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="0"
+                android:textSize="45sp"
+                android:textColor="@android:color/holo_purple"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Hector"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_purple"/>
+
+            <ImageView
+                android:id="@+id/hector_image"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:gravity="center"
+                android:src="@drawable/hector" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="winHector"
+                android:text="win"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="cheatHector"
+                android:text="cheat"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/hector_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="0"
+                android:textSize="45sp"
+                android:textColor="@android:color/holo_purple"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="resetScores"
+            android:text="reset"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp" />
+
+</RelativeLayout>

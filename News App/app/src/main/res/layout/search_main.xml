@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory android:title="General">
+
+        <EditTextPreference
+            android:key="@string/search_content_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/search_content" />
+
+        <EditTextPreference
+            android:key="@string/search_section_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/search_section" />
+
+        <EditTextPreference
+            android:key="@string/search_tag_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/search_tag" />
+
+        <EditTextPreference
+            android:hint="@string/date_format"
+            android:inputType="datetime|date|time"
+            android:key="@string/start_date_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/start_date" />
+
+        <EditTextPreference
+            android:hint="@string/date_format"
+            android:inputType="date"
+            android:key="@string/end_date_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/end_date" />
+    </PreferenceCategory>
+</PreferenceScreen>

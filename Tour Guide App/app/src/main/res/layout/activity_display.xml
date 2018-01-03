@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/ImageViewStyle"
+        android:src="@drawable/rotterdam"
+        tools:ignore="ContentDescription"
+        android:background="#ffffff"
+        android:padding="1dp"/>
+
+    <LinearLayout
+        style="@style/LinearLayoutTheme"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/TextTitleTheme"
+            android:ellipsize="marquee"
+            tools:text="@string/name"/>
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/TextDescriptionTheme"
+            tools:text="@string/description" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutTheme">
+
+        <TextView
+            style="@style/TextPriceTheme"
+            android:text="@string/price"/>
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/TextPriceAmountTheme"
+            tools:text="@string/€"/>
+    </LinearLayout>
+
+</LinearLayout>
